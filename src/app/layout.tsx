@@ -27,7 +27,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="bg-amber-400 w-full h-16">
+          <button className=" mt-2.5 ml-5 bg-red-700 btn cursor-pointer">click on me</button>
+        </header>
         {children}
+        <footer className="bg-green-700 w-full h-16"><p>this is footer</p></footer>
       </body>
     </html>
   );
