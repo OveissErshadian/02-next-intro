@@ -2,7 +2,7 @@
 
 const SettingsPage = () => {
   return (
-    <div>
+    <div className="bg-gray-600">
       <h1>Welcome to your setting.</h1>
       <p>this is the main setting page.</p>
     </div>
